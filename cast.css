@@ -38,13 +38,22 @@ body {
     border-style: none;
     margin: 5px;
     padding: 5px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: yellowgreen;
 }
 
 div {
     background-color: plum;
     display: flex;
+    margin: 10px;
+    padding: 10px;
     flex-wrap: nowrap;
     flex-direction: column;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: yellowgreen;
+
 }
 
 div.gallery {
